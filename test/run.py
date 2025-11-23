@@ -146,8 +146,8 @@ def test_google_search(driver):
                 )
             )
             time.sleep(5)
-            driver.save_screenshot("pic/streamer_page.png")
-            print("Screenshot saved → streamer_page.png")
+            driver.save_screenshot("pic/streamer_page.gif")
+            print("Screenshot saved → streamer_page.gif")
             break
         except TimeoutException:
             print("找不到 Follow")
