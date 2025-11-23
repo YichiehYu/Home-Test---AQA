@@ -10,4 +10,4 @@
     README.md
     requirements.txt
 
-![image](https://github.com/YichiehYu/Home-Test---AQA/blob/main/test/pic/streamer_page.gif)
+![image](https://github.com/YichiehYu/Home-Test---AQA/blob/main/pic/streamer_page.png)
