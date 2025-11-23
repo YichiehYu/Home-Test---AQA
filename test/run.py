@@ -54,19 +54,11 @@ def scroll_down(driver, count=2):
 # ---------------------------
 def test_google_search(driver):
 
-    wait = WebDriverWait(driver, 10)
+    wait = WebDriverWait(driver, 30)
 
     # Step 1: open Twitch
     driver.get("https://www.twitch.tv")
 
-    # cookie popup
-    try:
-        btn = wait.until(
-            EC.element_to_be_clickable((By.XPATH, "//button[contains(text(),'Accept')]"))
-        )
-        btn.click()
-    except:
-        pass
 
     # Step 2: click Browse
     MAX_RETRY = 10
@@ -146,8 +138,8 @@ def test_google_search(driver):
                 )
             )
             time.sleep(5)
-            driver.save_screenshot("pic/streamer_page.gif")
-            print("Screenshot saved → streamer_page.gif")
+            driver.save_screenshot("pic/streamer_page.png")
+            print("Screenshot saved → streamer_page.png")
             break
         except TimeoutException:
             print("找不到 Follow")
