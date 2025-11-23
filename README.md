@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 
     PythonProject/
-=======
- PythonProject/
->>>>>>> 902bd9f (first commit)
     └── test/
         ├── pic/
         ├── run.py
