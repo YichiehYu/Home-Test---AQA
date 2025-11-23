@@ -1,0 +1,7 @@
+PythonProject/
+└── test/
+    ├── pic/
+    ├── run.py
+    └── start.py
+
+![Test Running](pic]/streamer_page.png)

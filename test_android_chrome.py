@@ -161,7 +161,7 @@ def test_google_search():
                 EC.presence_of_element_located((By.XPATH, '//android.widget.Button[@text="Follow"]')))
             time.sleep(5)
 
-            driver.save_screenshot("streamer_page.png")
+            driver.save_screenshot("pic/streamer_page.png")
             print("Screenshot saved → streamer_page.png")
             break
         except TimeoutException:
